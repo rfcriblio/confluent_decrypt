@@ -1,0 +1,43 @@
+{
+  "title": "",
+  "type": "object",
+  "required": ["srcEncryptedKey", "srcEncryptedValue", "dstDecryptedKey", "dstDecryptedValue"],
+  "properties": {
+    "srcEncryptedKey": {
+      "title": "Encrypted Key Source Field",
+      "description": "Field which contains the Encrypted Key",
+      "type": "string",
+      "default": "__key"
+    },
+    "srcEncryptedValue": {
+      "title": "Encrypted Value Source Field",
+      "description": "Field which contains the Encrypted Value",
+      "type": "string",
+      "default": "_raw"
+    },
+    "dstDecryptedKey": {
+      "title": "Decrypted Key Destination Field",
+      "description": "Field name where the Decrypted Key will be placed.",
+      "type": "string",
+      "default": "decryptedKey"
+    },
+    "dstDecryptedValue": {
+      "title": "Decrypted Value Destination Field",
+      "description": "Field name where the Decrypted Value will be placed.",
+      "type": "string",
+      "default": "decryptedValue"
+    },
+    "azureVaultName": {
+      "title": "Azure Vault Name",
+      "description": "The name of the Azure Vault, where the key resides.",
+      "type": "string",
+      "default": "azureVaultName"
+    },
+    "azureKeyName": {
+      "title": "Azure Key Name",
+      "description": "The name of the Azure Key to use with decrypting.",
+      "type": "string",
+      "default": "azureKeyName"
+    }
+  }
+}

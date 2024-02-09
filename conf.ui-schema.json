@@ -1,0 +1,26 @@
+{
+  "srcEncryptedKey": {
+    "ui:options": { "inline": true, "width": "50%" },
+    "ui:placeholder": "Field which contains the Encrypted Key"
+  },
+  "srcEncryptedValue": {
+    "ui:options": { "inline": true, "width": "50%" },
+    "ui:placeholder": "Field which contains the Encrypted Value"
+  },
+  "dstDecryptedKey": {
+    "ui:options": { "inline": true, "width": "50%", "inlineStyle": { "padding": "0" } },
+    "ui:placeholder": "Field name where the Decrypted Key will be placed."
+  },
+  "dstDecryptedValue": {
+    "ui:options": { "inline": true, "width": "50%" },
+    "ui:placeholder": "Field name where the Decrypted Value will be placed."
+  },
+  "azureVaultName": {
+    "ui:options": { "inline": true, "width": "50%" },
+    "ui:placeholder": "The name of the Azure Vault, where the key resides."
+  },
+  "azureKeyName": {
+    "ui:options": { "inline": true, "width": "50%" },
+    "ui:placeholder": "The name of the Azure Key to use with decrypting."
+  }
+}
